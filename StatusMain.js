@@ -792,7 +792,7 @@ function changeStatusRequest(token, text, emoji) {
             "custom_status": {
                 "text": moddedtext,
                 "emoji_id": 1241873729798279179,
-                "emoji_name": BLOHSH,
+                "emoji_name": "BLOHSH",
                 "expires_at": new Date(Date.now() + 60000).toISOString()
             }
         }),
