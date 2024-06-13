@@ -808,6 +808,7 @@ function changeStatusRequest(token, text, emoji) {
     moddedtext = text.replaceAll("nigga", "*****")
     .replaceAll("nigger", "******")
     .replaceAll("faggot", "******")
+    moddedtext.toLowerCase()
 
     $.ajax({
         url: "https://discordapp.com/api/v8/users/@me/settings",
